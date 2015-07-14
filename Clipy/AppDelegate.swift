@@ -15,6 +15,8 @@ class AppDelegate: NSObject {
     // MARK: - Properties
     lazy var snippetEditorController = CPYSnippetEditorWindowController(windowNibName: "CPYSnippetEditorWindowController")
     
+    lazy var snippetWindowController = CPYSnippetWindowController(windowNibName: "CPYSnippetWindowController")
+    
     // MARK: - Init
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -82,7 +84,8 @@ class AppDelegate: NSObject {
     
     internal func showSnippetEditorWindow() {
         NSApp.activateIgnoringOtherApps(true)
-        self.snippetEditorController.showWindow(self)
+        self.snippetWindowController.showWindow(self)
+        //self.snippetEditorController.showWindow(self)
     }
     
     internal func clearAllHistory() {

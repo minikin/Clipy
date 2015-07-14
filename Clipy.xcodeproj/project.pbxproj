@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		314FDE9A4D3E3E721CE4CA43 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD02AEC500E951DF3566C0B /* libPods.a */; };
 		FA0C027F1B42C2B2009A558D /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = FA0C027E1B42C2B2009A558D /* dsa_pub.pem */; };
+		FA32343E1B55580F00036C3E /* CPYSnippetWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32343C1B55580F00036C3E /* CPYSnippetWindowController.swift */; };
+		FA32343F1B55580F00036C3E /* CPYSnippetWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA32343D1B55580F00036C3E /* CPYSnippetWindowController.xib */; };
 		FA3B95F61B3FB9FD00B61FF0 /* CPYPreferenceWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B95F41B3FB9FD00B61FF0 /* CPYPreferenceWindowController.swift */; };
 		FA3B95FA1B3FBA1100B61FF0 /* CPYSnippetEditorWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B95F81B3FBA1100B61FF0 /* CPYSnippetEditorWindowController.swift */; };
 		FA3B96041B3FD4AC00B61FF0 /* CPYImageAndTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B96031B3FD4AC00B61FF0 /* CPYImageAndTextCell.swift */; };
@@ -79,6 +81,8 @@
 		95188F89C10FD1FC6DB0F825 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E2265F0B70723AFEA6D247B6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		FA0C027E1B42C2B2009A558D /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		FA32343C1B55580F00036C3E /* CPYSnippetWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPYSnippetWindowController.swift; sourceTree = "<group>"; };
+		FA32343D1B55580F00036C3E /* CPYSnippetWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CPYSnippetWindowController.xib; sourceTree = "<group>"; };
 		FA3B95F41B3FB9FD00B61FF0 /* CPYPreferenceWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPYPreferenceWindowController.swift; sourceTree = "<group>"; };
 		FA3B95F81B3FBA1100B61FF0 /* CPYSnippetEditorWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPYSnippetEditorWindowController.swift; sourceTree = "<group>"; };
 		FA3B96031B3FD4AC00B61FF0 /* CPYImageAndTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPYImageAndTextCell.swift; sourceTree = "<group>"; };
@@ -191,6 +195,8 @@
 				FAF1DA0C1B41888F00E15D16 /* CPYPreferenceWindowController.xib */,
 				FA3B95F81B3FBA1100B61FF0 /* CPYSnippetEditorWindowController.swift */,
 				FA823D781B4042F200009614 /* CPYSnippetEditorWindowController.xib */,
+				FA32343C1B55580F00036C3E /* CPYSnippetWindowController.swift */,
+				FA32343D1B55580F00036C3E /* CPYSnippetWindowController.xib */,
 			);
 			path = WindowControllers;
 			sourceTree = "<group>";
@@ -471,6 +477,7 @@
 				FAC43DD01B35D8B100C06102 /* Images.xcassets in Resources */,
 				FA0C027F1B42C2B2009A558D /* dsa_pub.pem in Resources */,
 				FAC43DF71B35DD4300C06102 /* Localizable.strings in Resources */,
+				FA32343F1B55580F00036C3E /* CPYSnippetWindowController.xib in Resources */,
 				FA823D761B4042F200009614 /* CPYSnippetEditorWindowController.xib in Resources */,
 				FA51AAD31B4853ED00BDDE1D /* MainMenu.xib in Resources */,
 				FAF1DA0A1B41888F00E15D16 /* CPYPreferenceWindowController.xib in Resources */,
@@ -528,6 +535,7 @@
 				FAC43E521B35E13000C06102 /* SRKeyCodeTransformer.m in Sources */,
 				FAC43E721B36D0A600C06102 /* CPYUtilities.swift in Sources */,
 				FA3B96081B3FD4C700B61FF0 /* CPYSnippetTableView.swift in Sources */,
+				FA32343E1B55580F00036C3E /* CPYSnippetWindowController.swift in Sources */,
 				FAC43E751B36E9A000C06102 /* CPYUtilitiesObjC.m in Sources */,
 				FAC43E511B35E13000C06102 /* SRCommon.m in Sources */,
 				FAC43E621B35EA4E00C06102 /* CPYFolder.swift in Sources */,
