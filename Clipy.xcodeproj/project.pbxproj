@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		314FDE9A4D3E3E721CE4CA43 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD02AEC500E951DF3566C0B /* libPods.a */; };
+		31DDCD8D1B58E760007EA184 /* CPYSnippetOutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DDCD8C1B58E760007EA184 /* CPYSnippetOutlineView.swift */; };
 		FA0C027F1B42C2B2009A558D /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = FA0C027E1B42C2B2009A558D /* dsa_pub.pem */; };
 		FA32343E1B55580F00036C3E /* CPYSnippetWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32343C1B55580F00036C3E /* CPYSnippetWindowController.swift */; };
 		FA32343F1B55580F00036C3E /* CPYSnippetWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA32343D1B55580F00036C3E /* CPYSnippetWindowController.xib */; };
@@ -77,6 +78,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		31DDCD8C1B58E760007EA184 /* CPYSnippetOutlineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPYSnippetOutlineView.swift; sourceTree = "<group>"; };
 		8FD02AEC500E951DF3566C0B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		95188F89C10FD1FC6DB0F825 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E2265F0B70723AFEA6D247B6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -179,6 +181,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		31DDCD8B1B58E74F007EA184 /* OutlineViews */ = {
+			isa = PBXGroup;
+			children = (
+				31DDCD8C1B58E760007EA184 /* CPYSnippetOutlineView.swift */,
+			);
+			path = OutlineViews;
+			sourceTree = "<group>";
+		};
 		613917866A675237A79A4556 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +214,7 @@
 		FA3B96001B3FD47000B61FF0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				31DDCD8B1B58E74F007EA184 /* OutlineViews */,
 				FA3B96021B3FD48B00B61FF0 /* TableViewCell */,
 				FA3B96011B3FD47E00B61FF0 /* TableViews */,
 			);
@@ -557,6 +568,7 @@
 				FAC43E551B35E13000C06102 /* SRValidator.m in Sources */,
 				FAC43E691B35EC6200C06102 /* CPYClipManager.swift in Sources */,
 				FAC43E581B35E13D00C06102 /* DBPrefsWindowController.m in Sources */,
+				31DDCD8D1B58E760007EA184 /* CPYSnippetOutlineView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,6 +11,8 @@ import Cocoa
 class CPYSnippetWindowController: NSWindowController {
 
     // MARK: - Properties
+    @IBOutlet weak var outlineView: CPYSnippetOutlineView!
+    
     private let kAddSnippetIdentifier   = "kAddSnippetIdentifier"
     private let kAddFolderIdentifier    = "kAddFolderIdentifier"
     private let kDeleteIdentifier       = "kDeleteIdentifier"

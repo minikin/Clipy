@@ -7,6 +7,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="CPYSnippetWindowController" customModule="Clipy" customModuleProvider="target">
             <connections>
+                <outlet property="outlineView" destination="9R4-9Y-9lF" id="lIS-qT-972"/>
                 <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
             </connections>
         </customObject>
@@ -37,8 +38,8 @@
                                             <rect key="frame" x="1" y="1" width="189" height="398"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
-                                                <outlineView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" multipleSelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" viewBased="YES" indentationPerLevel="16" outlineTableColumn="20Z-Q8-EQE" id="9R4-9Y-9lF">
-                                                    <rect key="frame" x="0.0" y="0.0" width="189" height="398"/>
+                                                <outlineView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" multipleSelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" viewBased="YES" indentationPerLevel="16" outlineTableColumn="20Z-Q8-EQE" id="9R4-9Y-9lF" customClass="CPYSnippetOutlineView" customModule="Clipy" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="0.0" width="189" height="0.0"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <size key="intercellSpacing" width="3" height="2"/>
                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -83,7 +84,7 @@
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         </clipView>
                                         <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="Wlv-Hu-Qde">
-                                            <rect key="frame" x="1" y="117.43784940242767" width="236.75939178466797" height="16"/>
+                                            <rect key="frame" x="1" y="117.43784940242767" width="237" height="16"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
                                         <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="7eT-3v-1Wn">
