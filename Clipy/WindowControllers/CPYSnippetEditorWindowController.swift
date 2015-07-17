@@ -26,7 +26,7 @@ class CPYSnippetEditorWindowController: NSWindowController {
             self.folderTableView.tableDelegate = self
         }
     }
-    @IBOutlet weak var snippetTableView: CPYSnippetTableView! {
+    @IBOutlet weak var snippetTableView: CPYSnippetTableView_old! {
         didSet {
             self.snippetTableView.tableDelegate = self
         }
@@ -371,7 +371,7 @@ extension CPYSnippetEditorWindowController: CPYFolderTableViewDelegate {
 }
 
 // MARK: - CPYSnippetTableView Delegate
-extension CPYSnippetEditorWindowController: CPYSnippetTableViewDelegate {
+extension CPYSnippetEditorWindowController: CPYSnippetTableView_oldDelegate {
     func selectSnippet(row: Int, folder: CPYFolder?) {
         if row < 0 {
             return
