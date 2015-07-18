@@ -24,6 +24,7 @@ class CPYSnippetWindowController: NSWindowController {
         super.windowDidLoad()
         self.initToolBarButtons()
         self.window?.backgroundColor = NSColor.whiteColor()
+        self.window?.titlebarAppearsTransparent = true
     }
 
     // MARK: - Override Methods
