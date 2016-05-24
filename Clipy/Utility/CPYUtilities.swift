@@ -67,7 +67,7 @@ final class CPYUtilities {
 
     static func migrationRealm() {
         let config = RLMRealmConfiguration.defaultConfiguration()
-        config.schemaVersion = 3
+        config.schemaVersion = 4
         config.migrationBlock = { (migrate, oldSchemaVersion) in
             if oldSchemaVersion <= 2 {
                 // Add identifier in CPYSnippet

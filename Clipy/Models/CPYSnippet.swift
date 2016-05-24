@@ -17,9 +17,24 @@ class CPYSnippet: RLMObject {
     dynamic var title   = ""
     dynamic var content = ""
     dynamic var identifier = NSUUID().UUIDString
+    dynamic var folders: RLMLinkingObjects?
+
+    var folder: CPYFolder? {
+        return folders?.arrayValue(CPYFolder.self).first
+    }
 
     // MARK: Primary Key
     override class func primaryKey() -> String {
         return "identifier"
+    }
+
+    // MARK: - Linking Objects
+    override static func linkingObjectsProperties() -> [String : RLMPropertyDescriptor] {
+        return ["folders": RLMPropertyDescriptor(withClass: CPYFolder.self, propertyName: "snippets")]
+    }
+
+    // MARK: - Ignore Properties
+    override static func ignoredProperties() -> [String] {
+        return ["folder"]
     }
 }
